@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Página de comentarios del Blog de la Guía 
+Turística."
+    />
+    <meta
+      name="keywords"
+      content="comentarios, blog, guía turística, opiniones"
+    />
+    <title>Comentarios - Blog Guía Turística</title>
+    <style>
+    html, body {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #e9d8a6;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 24px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #94D2BD;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #003f7f;
+      border-radius: 5px;
+    }
+    main {
+      margin: 20px ;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      flex: 1;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #333;
+      color: white;
+      width: 100%;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Esto es un blog</h1>
+  </header>
+  <nav>
+    <a href="/html/index.html">Inicio</a>
+    <a href="/html/blog de comentarios/comentarios.html">Comentarios</a>
+    <a href="/html/blog de comentarios/entrada.html">Entrada</a>
+  </nav>
+    <main>
+      <section>
+        <h2>Deja tu Comentario</h2>
+      </section>
+
+      <section>
+        <textarea
+          style="width: 99%; height: 200px"
+          placeholder="Escribe aquí"
+        ></textarea>
+        <button style="width: 10%">Enviar</button>
+      </section>
+
+      <section>
+        <h2>Comentarios Recientes</h2>
+        <div class="comentario">
+          <p><strong>Juan Pérez</strong> <em>01/03/2025</em></p>
+          <p>
+            Excelente guía turística, muy informativa y práctica. Me encantó la
+            sección de lugares de interés.
+          </p>
+        </div>
+        <div class="comentario">
+          <p><strong>María García</strong> <em>28/02/2025</em></p>
+          <p>
+            Muy buen contenido, la información es muy útil para planificar mi
+            próxima visita a la ciudad.
+          </p>
+        </div>
+        <!-- Se pueden agregar más comentarios aquí -->
+      </section>
+    </main>
+    <aside>
+      <h3>Información Adicional</h3>
+      <p>
+        Para más detalles sobre la guía turística, visita nuestra página de
+        <a href="/html/guiaTuristica/contacto.html">Contacto</a> o suscríbete al
+        boletín.
+      </p>
+    </aside>
+    <footer>
+      <p>
+        &copy; 2025 Guía Turística de Orizaba. Todos los derechos reservados.
+      </p>
+    </footer>
+  </body>
+</html>
