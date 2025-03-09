@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Página de hobbies del participante." />
+    <meta name="keywords" content="Hobbies, Intereses, Multimedia" />
+    <title>Hobbies - Juan Pérez</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      /* Barra de navegación */
+      .head {
+        background: linear-gradient(90deg, #1e3c72, #2a5298);
+        padding: 1rem;
+        text-align: center;
+      }
+
+      .head a {
+        margin: 0 15px;
+        font-size: 18px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+
+      .head a:hover {
+        text-decoration: underline;
+        color: #ffcc00;
+      }
+
+      /* Encabezado */
+      header {
+        text-align: center;
+        padding: 20px;
+        background: #2a5298;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      /* Sección principal */
+      section {
+        width: 80%;
+        margin: 20px auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h2 {
+        color: #1e3c72;
+        border-bottom: 2px solid #1e3c72;
+        padding-bottom: 5px;
+      }
+
+      p {
+        text-align: justify;
+        line-height: 1.6;
+      }
+
+      /* Estilos para imágenes */
+      .image-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+      }
+
+      .image-container img {
+        max-width: 45%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      /* Audio */
+      audio {
+        width: 100%;
+        margin-top: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Barra de navegación -->
+    <nav class="head">
+      <a href="../index.html">INICIO</a>
+      <a href="cv.html">CV</a>
+      <a href="hobbies.html">Hobbies</a>
+      <a href="video.html">Video</a>
+      <a href="intereses.html">Intereses Profesionales</a>
+    </nav>
+
+    <!-- Encabezado -->
+    <header>
+      Hobbies e Intereses
+    </header>
+
+    <!-- Sección principal -->
+    <section>
+      <h2>Pasatiempos e Intereses</h2>
+
+      <div class="image-container">
+        <img src="../media/pedroInfante.jpg" alt="Imagen de Pedro Infante" />
+        <p>
+          Uno de mis pasatiempos es cantar y tocar la guitarra, interpretando
+          una gran variedad de melodías. Por lo regular, me gustan las canciones
+          rancheras de autores como Pedro Infante, José Alfredo Jiménez, Javier
+          Solís y Vicente Fernández. Disfruto especialmente interpretar
+          canciones con letras profundas y emotivas que transmitan sentimientos
+          genuinos. También me gusta experimentar con otros géneros como el
+          bolero y la balada, adaptando diferentes estilos para hacer cada
+          interpretación única. Tocar la guitarra no solo es un pasatiempo, sino
+          una forma de relajarme y conectar con la música de una manera
+          personal.
+        </p>
+      </div>
+
+      <div class="image-container">
+        <p>
+          También, pertenezco a un grupo católico llamado Camino
+          Neocatecumenal, donde disfruto tocar y cantar en reuniones y eventos
+          especiales. La música dentro de este grupo no solo es una forma de
+          expresión, sino una herramienta espiritual que fortalece la comunidad.
+        </p>
+        <img src="../media/ambon.jpg" alt="Camino Neocatecumenal" />
+      </div>
+
+      <!-- Audio -->
+      <audio controls>
+        <source src="../media/cancion.mp3" type="audio/mp3" />
+        Tu navegador no soporta el elemento de audio.
+      </audio>
+    </section>
+  </body>
+</html>
